@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <main id="main">
+      <head id="survey-title">
+<h1 id="title">Take my Survey</h1>
+<p id="description">Fill in info below:</p>
+  </head>
+ <form id="survey-form">
+<label id="name-label">Name:</label>
+<input type="text" name="name" required placeholder="Name" id="name" />
+<br></br>
+<label id="email-label">Email:</label>
+<input type="email" name="email" required placeholder="Email" id="email" type="text" />
+<br></br>
+<label id="number-label">Age:</label>
+<input type="number" name="number" required placeholder="Age" id="number" value="number" min="1" max ="100"/>
+  <br></br>
+<label id="dropdown-label">What state are you from?</label>
+ <select id="dropdown">
+   <option value="texas">Texas</option>
+   <option value="oklahoma">Oklahoma</option>
+   <option value="missouri">Missouri</option>
+</select>
+<br></br>
+<label id="happy">Are you Happy?
+</label>
+<label>
+  <input value="yes" type="radio" name="happy-scale"/>
+  Yes
+</label>
+<label>
+  <input value="no" type="radio" name="happy-scale"/>
+  No
+</label>
+<label>
+  <input value="unsure"type="radio" name="happy-scale"/>
+  Unsure
+</label>
+<br></br>
+<label id="fun-list">What do you do for fun?</label>
+<label for="fun">
+  <input value="paint" type="checkbox" id="fun" name="fun-types"/> Paint
+</label>
+<label for="fun">
+  <input value="read" type="checkbox" id="fun" name="fun-types" /> Read
+</label>
+<label for="fun">
+  <input value="write" type="checkbox" id="fun" name="fun-types" />Write
+</label>
+<br></br>
+<label id="comments">Comments or Suggestions?</label>
+<textarea id="commentbox" placeholder="Enter comments or suggestions here..."></textarea>
+<br></br>
+<button id="submit" type="submit">SUBMIT</button>
+  </form>
+</main>
+
+</html>

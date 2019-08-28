@@ -1,0 +1,107 @@
+#main {
+    background-color: #87d3f8;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: Arial;
+    font-size: 40px;
+    margin: auto;
+  }
+  
+  p {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  
+  #survey-form {
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+   padding: 50px;
+  }
+  
+  label {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  
+  
+  #email {
+    width: 400px;
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  #name {
+    width: 400px;
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+  
+  }
+  #number {
+    height: 35px;
+    width: 80px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    
+  }
+  #dropdown {
+    height:35px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  #commentbox {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    font-size: 15px;
+  }
+  #happy {
+    margin-right: 10px;
+  }
+  
+  #fun-list {
+    margin-right: 10px;
+  }
+  
+  #comments {
+    margin-right: 15px;
+    padding: 15px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin: auto;
+    
+  }
+  
+  #submit {
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #D3D3D3;	
+  }
+  
+  #submit:hover {
+    background-color: #87d3f8;
+  }
+  
+  
